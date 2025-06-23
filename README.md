@@ -31,6 +31,13 @@ This is a full-stack web application that predicts **stock price movements** for
     * `Close`, `MACD`, `RSI`, `SMA20`
 - **Output**: Probability between 0 and 1 -> Translated into `UP` or `DOWN` using threshold `0.02`.
 - **Future Days**: Predicts stock price movement for the next 3 days.
+  - **Model Performance (Offline Evaluation):**
+    * During the training and validation phase, the model's performance is rigorously assessed. Key metrics include:
+        * **Accuracy:** Measures the overall proportion of correct predictions. ==> Ranges from 0.75 to 0.85.
+        * **Precision:** Indicates the proportion of positive predictions (e.g., 'UP' movements) that were actually correct. ==> Ranges form 0.6 to 0.7.
+        * **Recall:** Measures the proportion of actual positive cases (e.g., actual 'UP' movements) that were correctly identified. ==> Ranges from 0.6 to 0.7.
+        * **F1-Score:** The harmonic mean of Precision and Recall, providing a single metric that balances both. ==> Ranges from 0.6 to 0.8.
+        * **ROC AUC:** Evaluates the model's ability to distinguish between classes at various threshold settings. ==> Ranges from 0.7 to 0.8.
 
 ---
 
