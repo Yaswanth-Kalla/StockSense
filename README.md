@@ -1,4 +1,4 @@
-# 📈 Stock Movement Prediction Web App
+# 📈 StockSense - A Stock Movement Prediction Web App
 
 This is a full-stack web application that predicts **stock price movements** for top Indian stocks using **Bi-directional LSTM deep learning models**. Built with **Vite-React (frontend)** and **FastAPI (backend)**, this app empowers users with intuitive candlestick charts and actionable predictions (UP/DOWN) for informed decision-making.
 
